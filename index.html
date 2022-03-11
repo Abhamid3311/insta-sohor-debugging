@@ -48,8 +48,8 @@
 
                 <div
                     class="collapse navbar-collapse justify-content-end"
-                    id="navbarSupportedContent"
-                >
+                    id="navbarSupportedContent">
+                
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-link active" role="button" onclick="switchTab( 'posts' )">
                             <i class="fa-solid fa-house"></i>
@@ -77,7 +77,28 @@
                 <h1>Reported posts</h1>
             </div>
         </main>
-        <footer></footer>
+        <footer>
+            <section class="container">
+                <div>
+                    <h2>How does javascript work?</h2>
+                    <p>javascript is an interpreted language so that it does not need any compiler. Every raw code can auto run. Javascript is a dynamically typed language. It has many types of data. For the management of this kind of thing javascript needs A special engine. It's called a V8 engine. the V8 engine used inside Chrome and Node.js
+                    </p>
+                    <p>
+                        The V8 engine executes raw code then the Just in time(JIT) compiler changes it as machine code. then we can see it in the browser.
+                    </p>
+                    <p>
+                        There are various criteria for optimizing JavaScript code. Before JavaScript code is passed to the interpreter or baseline compiler. it needs to first get parsed into an AST. After that it needs to Ignition of important data. then make it bytecode and then Machine code for understanding og browser. completing all this stage than our code shown on the browser
+                    </p>
+                </div>
+
+                <div>
+                    <h2>Difference between Local storage and Session storage?</h2>
+                    <p>Local storage means where data is stored for longtime and it doesn't expire. it doesn't delete any data until we delete it.
+
+                    The opposite side Session storage is where data is stored only for a few moments and this storage will expire after we close it. A unique page session gets created once a document is loaded in a browser tab. Page sessions are valid for only one tab at a time. Pages are only saved for the amount of time that the tab or the browser is open; they do not persist after the page reloads and restores. A new session is created each time a tab or window is opened; this is different from session cookies. A page's protocol determines what data is stored in sessionStorage. Particularly, data stored by scripts accessed through HTTP.this is all about difference between local storage and seassion storage. </p>
+                </div>
+            </section>
+        </footer>
 
         <!-- add javascript  file  -->
         <script src="./js/app.js"></script>
